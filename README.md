@@ -6,25 +6,27 @@ If you've reached this repository and have any suggestions, questions or work, r
 
 ## Workflow
 
--   In my opinion the best way to build a website is to brainstorm a design using a tool like [`Figma`](https://www.figma.com) to get some barebones looking good. Take breaks, think the design again, eventually scrap it if it doesn't feel satisfying anymore
+This is reflected in my commits on this repository, but for the most part:
 
--   After the design feels good, I start implementing the body and some basic positioning so all the elements are in place
+-   Brainstorming the initial design in a tool like [`Figma`](https://www.figma.com), I believe, is the best way to start a project. It's very fast to iterate and the project's goals will be clear from the beginning.
 
--   The styling process usually takes the longest since ideas can still creep up even after the design phase
+-   The next logical step is to declare all the elements and position them around the page on desktop and mobile until they're similar to the design.
 
--   In case styling has been a breeze, then the next longest part is implementing code features, but fortunately in this case there's no backend needed
+-   The styling process usually takes the longest since ideas can still creep up even after the design phase, otherwise it's just a matter of matching the project with the design file.
+
+-   The next longest part is implementing code features, especially for websites with a heavy backend, but fortunately in this case there's no backend needed.
 
 ## My choice of libraries
 
 I use [`SvelteKit`](https://kit.svelte.dev/) and [`TailwindCSS`](https://tailwindcss.com/) for all my personal projects and wherever else possible.
 
-I find they are the easiest to iterate after you've mastered the basics. This makes me be able to handle both big and small projects for clients by myself.
+I find they are the easiest to iterate after you've mastered the basics. This makes me be able to handle both big and small projects for clients by myself or in small teams.
 
 ### TailwindCSS
 
-It does make it a bit more cumbersome to modify styles once they are in place but I find it to be very manageable when using a frontend library.
+This library does make it a bit more cumbersome to modify styles once they are in place but I find it to be very manageable when using a frontend library.
 
-The same component rarely repeats since it's either placed in a different file or it's iterated multiple times straight in code and after I've used it for a while I'm even able to react to feedback live for most final touches.
+The same component rarely repeats since it's either placed in a different file or it's iterated multiple times straight in the frontend library. After I've used it for a while I'm even able to react to feedback live for most of the final touches.
 
 ### SvelteKit
 
