@@ -4,6 +4,18 @@
         <div
             class="h-[10rem] w-[10rem] absolute -left-[6rem] bg-white rounded-full" />
     </div>
+
+    <div class="absolute text-[#B4B4B4] text-[1.5rem] right-10 top-10 flex flex-col items-end gap-2">
+        <div class="flex justify-end gap-5 pb-2">
+            <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
+            <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
+            <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
+        </div>
+        <p>jiuvirgil@gmail.com</p>
+        <p>in/jiu-virgil</p>
+        <p>jiuvirgil</p>
+    </div>
+
     <div class="flex flex-col text-[1.5rem]">
         <h1 class="leading-[5rem] pb-5 font-bold">
             Virgil Constantin's<br />Portfolio
