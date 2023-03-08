@@ -1,12 +1,12 @@
 <div
-    class="grid items-center w-full min-h-screen pb-5 px-[10%] pt-10 gap-10 grid-cols-[auto_1fr] content-end justify-start">
-    <div class="h-[10rem] relative">
+    class="grid items-center w-full h-screen px-5 lg:px-[10%] lg:py-5 gap-5 lg:gap-10 grid-cols-[auto_1fr] lg:content-end justify-start">
+    <div class="relative">
         <div
-            class="h-[10rem] w-[10rem] absolute -left-[6rem] bg-white rounded-full" />
+            class="-bottom-[5rem] h-[10rem] w-[10rem] absolute -left-[6rem] bg-white rounded-full" />
     </div>
 
     <div
-        class="absolute text-[#B4B4B4] text-[1.5rem] right-10 top-10 flex flex-col items-end gap-2">
+        class="hidden lg:flex absolute text-[#B4B4B4] text-[1.5rem] right-10 top-10 flex-col items-end gap-2">
         <div class="flex justify-end gap-5 pb-2">
             <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
             <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
@@ -18,13 +18,11 @@
     </div>
 
     <div class="flex flex-col text-[1.5rem]">
-        <h1 class="leading-[5rem] pb-5 font-bold">
+        <h1 class="pb-5 font-bold">
             Virgil Constantin's<br />Portfolio
         </h1>
+        <h2>Web Developer & Designer</h2>
     </div>
-
-    <div />
-    <h2>Web Developer & Designer</h2>
 
     <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
     <div class="flex flex-col">
@@ -65,13 +63,14 @@
     <div class="flex flex-col">
         <h3>Projects</h3>
     </div>
-
+</div>
+<div class="relative w-full overflow-x-clip">
     <div
-        class="right-10 bottom-10 absolute w-[60vh] h-[60vh] bg-white rounded-full" />
+        class="-right-[15vw] -bottom-[50%] lg:right-10 lg:bottom-10 absolute w-[50vw] h-[50vw] lg:w-[60vh] lg:h-[60vh] bg-white rounded-full" />
 </div>
 
 <div
-    class="grid items-center w-full min-h-screen pb-5 px-[10%] pt-5 gap-10 grid-cols-[auto_minmax(auto,1fr)] content-between justify-start">
+    class="items-center w-full h-screen px-5 lg:px-[10%] lg:py-5 gap-5 lg:gap-10 grid grid-cols-[auto_minmax(auto,1fr)_auto] lg:content-between justify-start">
     <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
     <div class="flex flex-col">
         <h3>Projects</h3>
@@ -80,8 +79,9 @@
             <p>jiu-virgil</p>
         </div>
     </div>
-
+    <div/>
     <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
+    
 
     <div class="flex w-full justify-between gap-20">
         <div class="flex justify-center flex-col gap-2">
@@ -102,8 +102,8 @@
             </div>
         </div>
 
-        <div class="w-[600px] h-[350px] bg-white rounded-xl" />
     </div>
+    <div class="col-span-3 lg:col-span-1 w-[600px] h-[350px] bg-white rounded-xl" />
 
     <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
     <div class="flex w-full justify-between gap-20">
@@ -123,9 +123,10 @@
                 {/each}
             </div>
         </div>
-
-        <div class="w-[600px] h-[350px] bg-white rounded-xl" />
     </div>
+
+    <div class="col-span-3 lg:col-span-1 w-full h-[350px] bg-white rounded-xl" />
+
 
     <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
     <div class="flex flex-col">
@@ -134,7 +135,7 @@
 </div>
 
 <div
-    class="grid items-center w-full min-h-screen pb-5 px-[10%] pt-5 gap-10 grid-cols-[auto_minmax(auto,1fr)] content-between justify-start">
+    class="grid items-center w-full h-screen py-5 px-[10%] gap-10 grid-cols-[auto_minmax(auto,1fr)] content-between justify-start">
     <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
 
     <div>
@@ -144,13 +145,13 @@
     <div>
         <div class="grid gap-10 items-center grid-cols-[auto_auto_1fr]">
             <p class="justify-self-end text-[#B4B4B4]">in/jiu-virgil</p>
-            <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+            <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
             <p class="font-semibold">
                 If you’re a recruiter or just interested in working with me,
                 let’s link.
             </p>
             <p class="text-[#B4B4B4]">jiuvirgil@gmail.com</p>
-            <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+            <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
             <p class="font-semibold">
                 Or if it’s easier, just write me an email!
             </p>
@@ -164,7 +165,7 @@
             Hello, I’ve seen your websites and I would be interested in working
             with you.
         </p>
-        <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+        <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
     </div>
 
     <div />
@@ -173,10 +174,10 @@
             <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
             <p>Rebuilt with Svelte</p>
         </div>
-        <div class="text-black flex items-center gap-3">
+        <div class="font-semibold text-black flex items-center gap-3">
             <p>2022</p>
 
-            <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+            <div class="w-[2rem] h-[2rem] bg-black rounded-full" />
             <p>by Constantin Virgil</p>
         </div>
     </div>
