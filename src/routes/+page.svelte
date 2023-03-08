@@ -133,6 +133,60 @@
     </div>
 </div>
 
+<div
+    class="grid items-center w-full min-h-screen pb-5 px-[10%] pt-5 gap-10 grid-cols-[auto_minmax(auto,1fr)] content-between justify-start">
+    <div class="w-[4rem] h-[4rem] bg-white rounded-full" />
+
+    <div>
+        <h3>Let's talk</h3>
+    </div>
+    <div />
+    <div>
+        <div class="grid gap-10 items-center grid-cols-[auto_auto_1fr]">
+            <p class="justify-self-end text-[#B4B4B4]">in/jiu-virgil</p>
+            <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+            <p class="font-semibold">
+                If you’re a recruiter or just interested in working with me,
+                let’s link.
+            </p>
+            <p class="text-[#B4B4B4]">jiuvirgil@gmail.com</p>
+            <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+            <p class="font-semibold">
+                Or if it’s easier, just write me an email!
+            </p>
+        </div>
+    </div>
+
+    <div />
+    <div>
+        <p
+            class="w-[600px] mb-5 p-5 h-[400px] text-[#b4b4b4] font-semibold bg-[#383838] rounded-xl">
+            Hello, I’ve seen your websites and I would be interested in working
+            with you.
+        </p>
+        <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+    </div>
+
+    <div />
+    <div class="flex items-center w-full justify-between">
+        <div class="text-[#B4B4B4] flex items-center gap-3">
+            <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+            <p>Rebuilt with Svelte</p>
+        </div>
+        <div class="text-black flex items-center gap-3">
+            <p>2022</p>
+
+            <div class="w-[2rem] h-[2rem] bg-white rounded-full" />
+            <p>by Constantin Virgil</p>
+        </div>
+    </div>
+</div>
+
+<div class="-z-10 relative w-full h-0 overflow-x-clip">
+    <div
+        class="absolute -bottom-[20rem] -right-[10rem] w-[50rem] h-[50rem] bg-white rounded-full" />
+</div>
+
 <style>
     h1 {
         font-size: 4rem;

@@ -2,4 +2,6 @@
     import "../app.css";
 </script>
 
-<slot />
+<div class="overflow-clip">
+    <slot />
+</div>
