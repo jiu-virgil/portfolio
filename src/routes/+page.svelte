@@ -186,15 +186,3 @@
     <div
         class="absolute -bottom-[20rem] -right-[10rem] w-[50rem] h-[50rem] bg-white rounded-full" />
 </div>
-
-<style>
-    h1 {
-        font-size: 4rem;
-    }
-    h2 {
-        font-size: 1.8rem;
-    }
-    h3 {
-        font-size: 1.5rem;
-    }
-</style>
